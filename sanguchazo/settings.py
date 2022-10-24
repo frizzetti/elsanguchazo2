@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'sanguchazo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgres_psycopg2',
+        'NAME': 'dekgeaann3d5a5',
+        'USER': 'erspwwuhaldtwl',
+        'PASSWORD': 'dfac7dfbb387053d776dcd6647d8f30988b4c9417f6d23f5dd8c290493a675c9',
+        'HOST': 'ec2-52-208-164-5.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
